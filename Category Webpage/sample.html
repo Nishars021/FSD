@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <title>First webpage</title>
+    <style>
+        header{
+            background-color: cadetblue;
+            font-size:xx-large;
+            font-weight: bolder;
+            text-align: center;
+        }
+        footer{
+            font-size:xx-large;
+            font-weight: bolder;
+            text-align: center;
+            background-color: cadetblue;
+        }
+    img
+    {
+        width: 300px;
+        height: 200px;
+        border: 30px black;
+        border-radius:20px;
+    }
+    .student
+    {
+    width: 350px;
+    border: 10px solid black;
+    border-radius:50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blueviolet;
+    transition: all 0.5s ease-in-out;
+    }
+    .website{
+        transition: all 0.5s ease-in-out;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .website:hover
+.student{
+    transform: scale(0.9) rotate(5deg);
+}
+.website .student:hover{
+    transform: scale(0.7) rotate(5deg);
+    background-color: aqua;
+    border-color: black;
+}
+    </style>
+<body>
+ <header>NOVIAN CLUB</header>
+ <div class="website">
+ <div class="student">
+ <h1>Category</h1>
+ <img src="students-future.jpg" alt="image of student">
+ <h1>Student</h1>
+ </div>
+ <div class="student">
+    <h1>Category</h1>
+    <img src="Job-Seekers-3.jpg" alt="image of Job seeker">
+    <h1>Job seeker</h1>
+    </div>
+    <div class="student">
+        <h1>Category</h1>
+        <img src="office-workers-busy-stockcake.webp" alt="image of worker">
+        <h1>Worker</h1>
+        </div>
+        <div class="student">
+            <h1>Category</h1>
+            <img src="images.jpg" alt="image of Home-maker">
+            <h1>Home-maker</h1>
+            </div>
+ </div>
+ <footer>success@gmail.com</footer>
+</body>
+</html>
