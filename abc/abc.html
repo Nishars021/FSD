@@ -32,7 +32,15 @@
 <body>
     <h id="heading">Is JavaScript easy?</h>
     <br>
-    <button id="b1">Welcome</button>
-    <button id="b2">Bye</button>
+    <button id="b1">Yes</button>
+    <button id="b2">No</button>
+    <script>
+        document.getElementById("b1").onclick = function(){
+            document.getElementById("heading").innerHTML= "Yes Java Script is easy"
+        }
+        document.getElementById("b2").onclick = function(){
+            document.getElementById("heading").innerHTML= "No Java Script is not easy"
+        }
+    </script>
 </body>
 </html>
