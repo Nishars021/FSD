@@ -12,7 +12,7 @@
             position: relative;
             width:100vw;
             height:100vh;
-            background-color: dodgerblue;
+            background-color: white;
         }
         .sub1{
             position: absolute;
@@ -20,8 +20,8 @@
             left: 15vw;
             width:70vw;
             height:80vh;
-            background-color: aliceblue;
-            border-radius: 15px 2px 15px 2px;
+            background-color: rgb(32, 87, 227);
+            border-radius: 100px 20px 100px 20px;
         }
         .sub2{
             position: absolute;
@@ -29,8 +29,24 @@
             left:20vw;
             width:30vw;
             height:50vh;
-            background-color: dodgerblue;
-            border-radius: 15px 2px 15px 2px;
+            background-color: white;
+            border-radius: 100px 20px 100px 20px;
+        }
+        h1{
+            font-size: 40px;
+            padding-left : 80px;
+            padding-top: 20px;
+        }
+        .sub2 button{
+            width: 25%;
+            height: 10%;
+            margin-left: 30%;
+            margin-top: 10%;
+            border: solid black;
+            border-radius: 20px 20px 20px 20px;
+            background-color: blue;
+            color: white;
+            font-size: large;
         }
         .sub3{
             position: absolute;
@@ -38,16 +54,61 @@
             right:17vw;
             width:30vw;
             height:50vh;
-            background-color: dodgerblue;
-            border-radius: 15px 2px 15px 2px;
+            background-color: white;
+            border-radius: 100px 20px 100px 20px;
+        }
+        .sub3 img{
+            margin-left: 5%;
+            margin-top: 14px;
+            width :90%;
+            height : 90%;
+            border: solid blue 4px;
+            border-radius: 100px 20px 100px 20px;
+        }
+         .sub4{
+            display:none;
+            position: absolute;
+            top:30vh;
+            right:17vw;
+            width:30vw;
+            height:50vh;
+            background-color: white;
+            border-radius: 100px 20px 100px 20px;
+        }
+        .sub4 img{
+            margin-left: 5%;
+            margin-top: 14px;
+            width :90%;
+            height : 90%;
+            border: solid blue 4px;
+            border-radius: 100px 20px 100px 20px;
         }
     </style>
 </head>
 <body>
     <div class="main">
-        <div class="sub1"></div>
-        <div class="sub2"></div>
-        <div class="sub3"></div>
+        <div class="sub1">
+        </div>
+        <div class="sub2">
+            <h1 id="heading1">Nisha</h1>
+            <h1>B.Tech in CSE</h1>
+            <h1 id="heading3">Studying in <span id="span" style="color:green">Amity University</span></h1>
+            <button id="b1" onclick="changecontent()">Explore</button>
+        </div>
+        <div class="sub3" id="sub3">
+            <img src="https://www.bmu.edu.in/wp-content/uploads/2024/09/Code-your-Future-with-BTech-Computer-Science.webp" alt="">
+        </div>
+        <div class="sub4" id="sub4">
+            <img src="https://thecollegesphere.com/wp-content/uploads/2025/07/amity-university-bangalore.jpg" alt="">
+        </div>
     </div>
 </body>
+<script>
+    function changecontent(){
+        document.getElementById("span").innerHTML="Bengaluru";
+        document.getElementById("span").style.color = "red";
+        document.getElementById("sub3").style.display = "none";
+        document.getElementById("sub4").style.display = "block";
+    }
+</script>
 </html>
