@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Blog Website </title>
+    <style>
+        body
+        {
+            margin: 0;
+            background-color: rgb(203, 181, 181);
+        }
+        .main1
+        {
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+        }
+        .Box
+        {
+            position: relative;
+            width:20vw;
+            height:40vh;
+            border-radius: 30px;
+            top: 30vh;
+            font-weight: bolder;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 200px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: white;
+        }
+
+        .sub1
+        {
+            background-color: red;
+            position:absolute;
+            left: 4vw;
+
+        }
+        .sub2
+        {
+            position: absolute;
+            left:28vw;
+            top:25vh ;
+            background-color: green;
+        }
+        .sub3
+        {
+            background-color:dodgerblue;
+            position: absolute;
+            left:52vw;
+        }
+        .sub4
+        {
+            background-color: rgb(246, 177, 18);
+            top:25vh;
+            position:absolute;
+            left: 76vw;
+        }
+        .sub5 img
+        {
+            width :200px;
+            height: 70px;
+        }
+        .sub5
+        {
+            position: fixed;
+            top: 2vh;
+        }
+        .main2
+        {
+            width: 100vw;
+            height: 100vh;
+            background-color: black;
+        }
+        .main1:hover .sub1 
+        {
+            transform: scale(0.9) ;
+            transition: 0.2s ease-in-out;
+            background-color: rgb(172, 159, 159,0); ;
+            border: 10px solid red;
+            color: red;
+            transform: rotate(-10deg);
+        }
+        .main1:hover .sub2 
+        {
+            left:24vw;
+            transform: scale(0.9) ;
+            transition: 0.2s ease-in-out;
+            background-color: rgb(172, 159, 159,0); ;
+            border: 10px solid green;
+            color: green;
+            transform: rotate(20deg);
+        }
+        .main1:hover .sub3 
+        {
+           transform: scale(0.9) ;
+           transition: 0.2s ease-in-out;
+           background-color: rgb(172, 159, 159,0); ;
+           border: 10px solid dodgerblue;
+           color: dodgerblue;
+           transform: rotate(-10deg);
+           left:44vw;
+        }  
+        .main1:hover .sub4 
+        {
+            left:62vw;
+            transition: 0.2s ease-in-out;
+            background-color: rgb(172, 159, 159,0); ;
+            border: 10px solid  rgb(246, 177, 18);
+            color:  rgb(246, 177, 18);
+            transform: rotate(5deg);
+        }
+    </style>
+</head>
+<body>
+<div class="main1">
+<div class="Box sub1">Z</div>
+<div class="Box sub2">O</div>
+<div class="Box sub3">H</div>
+<div class="Box sub4">O</div>
+<div class="sub5"><img src="https://www.zoho.com/sites/zweb/images/zoho_general_pages/zoho-logo-512.png" alt="zoho"></div>
+</div>
+<div class="main2"></div>
+</body>
+</html>

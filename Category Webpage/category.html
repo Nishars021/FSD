@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <title>First webpage</title>
+    <style>
+        header{
+            background-color: cadetblue;
+            font-size:xx-large;
+            font-weight: bolder;
+            text-align: center;
+        }
+        footer{
+            font-size:xx-large;
+            font-weight: bolder;
+            text-align: center;
+            background-color: cadetblue;
+        }
+    img
+    {
+        width: 300px;
+        border: 50px black;
+        border-radius:10%;
+    }
+    .food
+    {
+    width: 300px;
+    border: 10px solid black;
+    border-radius:25px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    background-color: blueviolet;
+    transition: all 0.5s ease-in-out;
+    }
+    .website
+    {
+        transition: all 0.5s ease-in-out;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .website:hover
+.food{
+    transform: scale(0.9) ;
+}
+.website 
+.food:hover{
+    transform: scale(0.7) rotate(5deg);
+    background-color: aqua;
+    border-color: black;
+}
+    </style>
+<body>
+ <header>FOOD COURT</header>
+ <div class="website">
+ <div class="food">
+ <h1>Category</h1>
+ <h1>Vegetarian</h1>
+ <img src="istockphoto-2150857924-612x612.jpg" alt="image of veg">
+ </div>
+ <div class="food">
+    <h1>Category</h1>
+    <h1>Non-Vegetarian</h1>
+    <img src="flat-lay-table-full-delicious-food-composition.jpg" alt="image of non-veg">
+    </div>
+    <div class="food">
+        <h1>Category</h1>
+        <h1>Vegan</h1>
+        <img src="images (1).jpg" alt="image of vegan">
+        </div>
+        <div class="food">
+            <h1>Category</h1>
+            <h1>Dairy products</h1>
+            <img src="360_F_242244318_lstPSXE1iWOgKPQYDvwTpvRgPmnJv3RW.jpg" alt="image of dairy products">
+            </div>
+ </div>
+ <footer>Feedback : foodcourt@yahoo.com</footer>
+</body>
+</html>
