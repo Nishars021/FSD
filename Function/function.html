@@ -6,20 +6,19 @@
     <title>Document</title>
 </head>
 <body>
-    <h1>Nagaraj B S</h1>
+    <button onclick="buttonClick()">Calculation</button>
     <script>
-        function click(){
-            let a=5;
-            let b=8;
-            let c=7;
-            let d=3;
-            let e=10;
+        function buttonClick(){
+            let a=2;
+            let b=3;
+            let c=4;
+            let d=5;
             let step1=a+b;
-            let step2=c+d+e;
+            let step2=c+d;
             let ans=step1+step2;
-            document.write(step1 + "+" + step2 + "=" + ans)
+            document.writeln(ans);
+            console.log("Calculation part");
         }
-        click()
     </script>
 </body>
 </html>
