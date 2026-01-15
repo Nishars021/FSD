@@ -16,7 +16,6 @@ const profileCard = document.getElementById("profileCard");
 
 // Create dynamic HTML
 profileCard.innerHTML = `
-
     <h2>${profileData.name}</h2>
     <h4>${profileData.role}</h4>
     <p>${profileData.description}</p>
