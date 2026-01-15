@@ -16,7 +16,7 @@ const profileCard = document.getElementById("profileCard");
 
 // Create dynamic HTML
 profileCard.innerHTML = `
-    <img src="${profileData.image}" alt="Profile Image">
+    <img src=""C:\Users\rsn36\OneDrive\Pictures\Screenshots\WhatsApp Image 2025-06-01 at 09.12.28_91429d75.jpg"" alt="Profile Image">
     <h2>${profileData.name}</h2>
     <h4>${profileData.role}</h4>
     <p>${profileData.description}</p>
