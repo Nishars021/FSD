@@ -24,18 +24,16 @@ body {
 }
 
 .name {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: bolder;
     color: #000000;
 }
 
 .role {
-    color: #777;
-    margin: 5px 0 15px;
+    color: #292828;
 }
 
 .description {
-    font-size: 0.95rem;
     color: #555;
     margin-bottom: 20px;
 }
@@ -53,9 +51,9 @@ body {
     padding: 8px 15px;
     border-radius: 5px;
     font-size: 0.9rem;
-    transition: background 0.3s;
+    transition: all 0.3 ease;
 }
 
 .social-btn:hover {
-    background: #217dbb;
+    background: #1eb1a2;
 }
