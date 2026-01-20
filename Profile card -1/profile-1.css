@@ -24,13 +24,12 @@ body {
 }
 
 .name {
-    margin-top: 15px;
-    font-size: 1.6rem;
-    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: #000000;
 }
 
 .role {
-    font-size: 1rem;
     color: #777;
     margin: 5px 0 15px;
 }
